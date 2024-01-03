@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 150vh;
+    background: rgb(2, 2, 36);
+    position: absolute;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    font-family:cursive;
+    font-style:normal;
+    font-weight:800;
+    font-size: 40px;
+}
+.header2{
+    text-align: center;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.todo-outerbox{
+    position: relative;
+    width: 70vw;
+    background: #fff;
+    margin: 5em 5em 0 10em;
+    border-radius: 15px;
+    padding:15px;
+    box-shadow: 0 5px 5px rgba(20, 20, 20, 0.1)
+}
+
+.add-task{
+    width: 65vw;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top:2em;
+}
+.todo-input{
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    border:1px;
+    border-radius: 1em;
+    padding: 1em;
+    margin: .3em;
+    width: 58vw;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.todo-input ul{
+    display: inline;
+    
+}
+.plus-btn{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+.plus-btn:hover{
+    color: rgb(21, 18, 168);
+}
+.list-items{
+    font-size: 14px;
+    position: relative;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(77, 24, 6);
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    padding: 0.5em;
+    text-align: left;
+    margin: 0.5em 00;
+    margin: 1em 13.5em;;
+    width: 65vw;
+    height: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* text-align: center; */
+}
+.icons{
+    border-radius:15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(197, 16, 16);
+    float: right;
+    padding:0px 5px;
+    font-size: 20px;
+}
+.icons-edit{
+    border-radius:15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(116, 138, 120);
+    float: right;
+    padding:0px 5px;
+    font-size: 20px;
+}
+.message-alert{
+    text-align: center;
+    color: green;
+    font-size: 18px;
+}
+.loading-spin{
+    color: red;
+}
+.todo-inputt{
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 1em;
+    margin: -.2em;
+    width: 58vw;
+    height: 30px;
+    border: 1px solid grey;
+}
+.icons-check{
+    border-radius:15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(15, 88, 21);
+    float: right;
+    padding:0px 5px;
+    font-size: 20px;
+}
